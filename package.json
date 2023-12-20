@@ -6,11 +6,17 @@
     "html": "public/index.html",
     "js": "src/index.js"
   },
+  "devDependencies": {
+    "typescript":"^5"
+  
+  },
   "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+
+    "react": "^18",
+    "react-dom": "^18",
     "utopia-api": "0.4.1",
     "react-spring": "8.0.27",
-    "@heroicons/react": "1.0.1"
+    "@heroicons/react": "1.0.1",
+    "reshaped":"latest"
   }
 }
