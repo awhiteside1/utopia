@@ -4,12 +4,35 @@ import { Card } from './card.js'
 import { FlexRow, FlexCol, TwoColumnGrid } from './utils'
 import { SearchIcon } from '@heroicons/react/solid'
 import { Ratings } from '/src/card.js'
+import { Offer } from '/src/reshaped/offerCard.js'
 
 export var App = (props) => {
   return (
-    <FlexCol style={{ width: '100%', height: '100%', padding: 8, gap: 8 }}>
-      <span style={{ fontSize: '40px', fontWeight: 700, fontStyle: 'normal' }}>Beaches</span>
-      <span style={{ color: 'rgb(0, 0, 0, 0.5)', fontSize: '16px' }}>Featured</span>
+    <FlexCol
+      style={{
+        width: '100%',
+        height: '100%',
+        padding: 8,
+        gap: 8,
+      }}
+    >
+      <span
+        style={{
+          fontSize: '40px',
+          fontWeight: 700,
+          fontStyle: 'normal',
+        }}
+      >
+        Beaches
+      </span>
+      <span
+        style={{
+          color: 'rgb(0, 0, 0, 0.5)',
+          fontSize: '16px',
+        }}
+      >
+        Featured
+      </span>
       <TwoColumnGrid style={{ gap: 8 }}>
         <Card
           name='La Digue'
